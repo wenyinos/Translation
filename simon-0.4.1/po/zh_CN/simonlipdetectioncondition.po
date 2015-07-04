@@ -1,0 +1,73 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2013.
+# ruojiner <ruojiner@163.com>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-11-05 01:49+0100\n"
+"PO-Revision-Date: 2014-07-27 13:32+0800\n"
+"Last-Translator: ruojiner <ruojiner@163.com>\n"
+"Language-Team: English <empty>\n"
+"Language: zh-cn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Vé 0.1.4\n"
+
+#: createlipdetectionconditionwidget.cpp:30
+msgid "Lip Detection"
+msgstr "唇语探测"
+
+#: createlipdetectionconditionwidget.cpp:31
+#: createlipdetectionconditionwidget.cpp:50
+#: createlipdetectionconditionwidget.cpp:60
+msgid "&Start Training"
+msgstr "开始训练(&S)"
+
+#: createlipdetectionconditionwidget.cpp:56
+msgid "Failed to initialize video capture."
+msgstr "初始化语音抓取失败。"
+
+#: createlipdetectionconditionwidget.cpp:73
+msgid "Speaking."
+msgstr "说话中…"
+
+#: createlipdetectionconditionwidget.cpp:79
+msgid "Not speaking."
+msgstr "未说话。"
+
+#. i18n: ectx: property (text), widget (QLabel, lblThreshold_2)
+#: createlipdetectionconditionwidget.ui:28
+msgid ""
+"The lip detection condition will evaluate to true while you are speaking by "
+"monitoring your lip movements.\n"
+"\n"
+"You can adjust the sensitivity of this detection with the slider below."
+msgstr "当您看到您的嘴唇移动，并且正在说话中，则唇语检测条件会为真。\n"
+"\n"
+"您可以用下方的滑动条调整检测的灵敏度。"
+
+#. i18n: ectx: property (text), widget (QLabel, lblSilderValue)
+#: createlipdetectionconditionwidget.ui:80
+msgid "0"
+msgstr "0"
+
+#. i18n: ectx: property (text), widget (QLabel, lblThreshold)
+#: createlipdetectionconditionwidget.ui:92
+msgid ""
+"To detect an optimal value automatically, select \"Start Training\" below, "
+"speak a sentence, and stop the training again."
+msgstr "要自动检测最佳值，按下「开始训练」，念出一句话，然后停止训练。"
+
+#: lipdetectioncondition.cpp:58
+msgctxt "Detecting Whether the user is speaking or not by detecting lip movements"
+msgid "User is speaking"
+msgstr "使用者说话中"
+
+#: lipdetectioncondition.cpp:60
+msgctxt "Detecting Whether the user is speaking or not by detecting lip movements"
+msgid "User is not speaking"
+msgstr "使用者未说话"

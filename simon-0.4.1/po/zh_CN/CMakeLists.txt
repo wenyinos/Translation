@@ -1,0 +1,4 @@
+file(GLOB _po_files *.po)
+GETTEXT_PROCESS_PO_FILES(zh_CN ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+#2014 07 27 10：40
+#simon.po 未翻译

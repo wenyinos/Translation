@@ -1,0 +1,105 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2013.
+# ruojiner <ruojiner@163.com>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 02:34+0200\n"
+"PO-Revision-Date: 2014-07-27 13:24+0800\n"
+"Last-Translator: ruojiner <ruojiner@163.com>\n"
+"Language-Team: English <empty>\n"
+"Language: zh-cn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Vé 0.1.4\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ruojiner"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ruojiner@163.com"
+
+#: filtercommandmanager.cpp:41 filtercommandmanager.cpp:66
+msgid "Activate Filter"
+msgstr "启动过滤器"
+
+#: filtercommandmanager.cpp:52 filterconfiguration.cpp:30
+msgid "Filter"
+msgstr "过滤器"
+
+#: filtercommandmanager.cpp:70
+msgid "Deactivate Filter"
+msgstr "停止过滤器"
+
+#: filtercommandmanager.cpp:77
+msgid "Changing filter state..."
+msgstr "改变过滤器状态..."
+
+#: filtercommandmanager.cpp:168
+msgid "Activate filter"
+msgstr "启动过滤器"
+
+#: filtercommandmanager.cpp:169
+msgid "Starts filtering"
+msgstr "开始过滤"
+
+#: filtercommandmanager.cpp:175
+msgid "Deactivate filter"
+msgstr "停止过滤器"
+
+#: filtercommandmanager.cpp:176
+msgid "Stops filtering"
+msgstr "停止过滤"
+
+#: filtercommandmanager.cpp:182
+msgid "Deactivate filter once"
+msgstr "停止过滤器一次"
+
+#: filtercommandmanager.cpp:183
+msgid ""
+"When two stage mode is activated; Will consider the next recognition result "
+"and either only listen for the command to deactivate the filter completely "
+"or also pass the next result through to other plugins depending on the "
+"setting in the configuration."
+msgstr "当启动两阶段模式时，它会考虑下一个识别结果，根据设置来决定是只要听指令来完全"
+"停止过滤器，还是将下个结果通过其他外部程序传递。"
+
+#: filterconfiguration.cpp:31
+msgid "Filter recognition results"
+msgstr "过滤识别结果"
+
+#. i18n: ectx: property (text), widget (KLineEdit, leRegExp)
+#: filterconfiguration.cpp:117 filterconfigurationdlg.ui:32
+msgid ".*"
+msgstr ".*"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: filterconfigurationdlg.ui:25
+msgid "Filter (RegExp):"
+msgstr "过滤器（正则表达式）："
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbTwoStage)
+#: filterconfigurationdlg.ui:41
+msgid "Two stage activation"
+msgstr "两阶段启动"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbRelayStageOne)
+#: filterconfigurationdlg.ui:48
+msgid "Relay result in stage one of two stage activation"
+msgstr "将第一阶段的结果传送启动第二阶段"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbLeaveStageOneAutomatically)
+#: filterconfigurationdlg.ui:57
+msgid "Leave stage one automatically after timeout:"
+msgstr "多久以后自动离开第一阶段："
+
+#. i18n: ectx: property (text), widget (QLabel, lbMs)
+#: filterconfigurationdlg.ui:77
+msgid "ms"
+msgstr "毫秒"

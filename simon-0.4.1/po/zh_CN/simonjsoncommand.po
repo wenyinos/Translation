@@ -1,0 +1,56 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2013.
+# ruojiner <ruojiner@163.com>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-11-05 01:49+0100\n"
+"PO-Revision-Date: 2014-07-27 13:26+0800\n"
+"Last-Translator: ruojiner <ruojiner@163.com>\n"
+"Language-Team: English <empty>\n"
+"Language: zh-cn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Vé 0.1.4\n"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: createjsoncommandwidget.ui:20
+msgid "URL:"
+msgstr "网址："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: createjsoncommandwidget.ui:30
+msgid "Request:"
+msgstr "请求："
+
+#: jsoncommand.cpp:33 jsoncommandmanager.cpp:89 jsonconfiguration.cpp:28
+msgid "JSON"
+msgstr "JSON"
+
+#: jsoncommand.cpp:58
+msgctxt "URL of the call"
+msgid "URL"
+msgstr "网址"
+
+#: jsoncommand.cpp:59
+msgctxt "The request itself (\"function\")"
+msgid "Request"
+msgstr "请求"
+
+#: jsonconfiguration.cpp:29
+msgid "Send JSON messages"
+msgstr "传递 JSON 消息"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: jsonconfigurationdlg.ui:26
+msgid "Host:"
+msgstr "主机："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: jsonconfigurationdlg.ui:36
+msgid "Port:"
+msgstr "端口："

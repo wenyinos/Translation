@@ -1,0 +1,84 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: si\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-02-05 02:36+0100\n"
+"PO-Revision-Date: 2014-07-28 09:45+0800\n"
+"Last-Translator: ruojiner <ruojiner@163.com>\n"
+"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.6.7\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ruojiner"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ruojiner@163.com"
+
+#: pronunciationtraining.cpp:64
+msgid "There are no words to train. Please check your configuration."
+msgstr "没有其他单词要训练了，请检查您的设置。"
+
+#: pronunciationtraining.cpp:90
+#, kde-format
+msgctxt "%1 and %2 are numbers"
+msgid "Sample %1 of %2:"
+msgstr "样本 %1 / %2："
+
+#: pronunciationtrainingcommandmanager.cpp:39
+msgid "Activate Pronunciation Training"
+msgstr "启动发音训练"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, Form)
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: pronunciationtrainingcommandmanager.cpp:50
+#: pronunciationtrainingcommandmanager.cpp:64
+#: pronunciationtrainingconfiguration.cpp:32
+#: pronunciationtrainingconfiguration.cpp:33 pronunciationtrainingdlg.ui:14
+#: pronunciationtrainingdlg.ui:41
+msgid "Pronunciation Training"
+msgstr "发音训练"
+
+#: pronunciationtrainingcommandmanager.cpp:74
+msgid "Activating pronunciation training"
+msgstr "正在启动发音训练"
+
+#. i18n: ectx: property (text), widget (QLabel, lbWordGroup)
+#: pronunciationtrainingconfigurationdlg.ui:25
+#| msgid "Terminal to fetch:"
+msgid "Category to fetch:"
+msgstr "要抓取的终端："
+
+#. i18n: ectx: property (format), widget (QProgressBar, pbScore)
+#: pronunciationtrainingdlg.ui:81
+#, no-c-format
+msgid "Score: %p%"
+msgstr "分数：%p%"
+
+#. i18n: ectx: property (text), widget (KPushButton, pbPrev)
+#: pronunciationtrainingdlg.ui:93
+msgctxt "Previous word to train"
+msgid "Previous"
+msgstr "上一个"
+
+#. i18n: ectx: property (text), widget (KPushButton, pbNext)
+#: pronunciationtrainingdlg.ui:116
+msgctxt "Next word to train"
+msgid "Next"
+msgstr "下一个"
+
+#. i18n: ectx: property (text), widget (KPushButton, pbQuit)
+#: pronunciationtrainingdlg.ui:142
+msgctxt "Quit the pronunciation training"
+msgid "Quit"
+msgstr "离开"

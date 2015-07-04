@@ -1,0 +1,36 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: simon\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 02:34+0200\n"
+"PO-Revision-Date: 2014-07-28 09:47+0800\n"
+"Last-Translator: ruojiner <ruojiner@163.com>\n"
+"Language-Team: \n"
+"Language: zh_Hans_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.6.7\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ruojiner"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ruojiner@163.com"
+
+#: recognizercommandmanager.cpp:47 recognizerconfiguration.cpp:30
+#: recognizerconfiguration.cpp:31
+msgid "Recognizer"
+msgstr "识别器"
+
+#. i18n: ectx: property (text), widget (QLabel, lbAppend)
+#: recognizerconfigurationdlg.ui:25
+msgid "Append text after result:"
+msgstr "在結果后附加文字："
