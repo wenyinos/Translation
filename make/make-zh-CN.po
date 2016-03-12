@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: wenyinos\n"
 "Report-Msgid-Bugs-To: bug-make@gnu.org\n"
 "POT-Creation-Date: 2014-10-05 12:25-0400\n"
-"PO-Revision-Date: 2015-06-11 16:24+0800\n"
+"PO-Revision-Date: 2016-03-12 19:25+0800\n"
 "Last-Translator: ruojiner <ruojiner@hotmail.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.1\n"
+"X-Generator: Poedit 1.8.4\n"
 "X-Crowdin-Project: aosc\n"
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /Make/make.pot\n"
@@ -1684,7 +1684,7 @@ msgstr "目标“%s”是双冒号目标并且没有前提。\n"
 #: remake.c:790
 #, c-format
 msgid "No recipe for '%s' and no prerequisites actually changed.\n"
-msgstr "没有关于“%s”的命令，并且实际上改变了的前提。\n"
+msgstr "没有关于“%s”的命令，并且实际上改变的前提。\n"
 
 #: remake.c:795
 #, c-format
